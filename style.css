@@ -53,7 +53,6 @@ h1 {
     border-radius: 8px;
 }
 
-/* Убираем transition! Теперь JavaScript будет управлять позицией каждого кадра */
 .snake {
     position: absolute;
     width: 20px;
@@ -61,7 +60,6 @@ h1 {
     background: linear-gradient(45deg, #e74c3c, #c0392b);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
     border-radius: 4px;
-    /* transition: all 0.15s linear; <-- УДАЛЯЕМ ЭТО! */
 }
 
 .snake.snake-head {
