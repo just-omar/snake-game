@@ -1,0 +1,11 @@
+services:
+  snake-game:
+    # container_name: tmp-my-html
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+      # target: prod
+    ports:
+      # - "151:80"
+      - "777:80"
